@@ -1,0 +1,82 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 75px;
+    border-radius: 33%;
+    box-shadow: -5px 10px 15px 10px;
+    margin: 20px;
+    align-items: center;
+    
+    
+}
+
+
+.divOuter 
+{
+    display: grid;
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+.divOuter:hover 
+{
+    opacity: 80%;
+}
+
+.divOuter:active 
+{
+    opacity: 40%;
+}
+
+
+
+.display 
+{
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 380px;
+    height: 150px;
+    background-color: gray;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: lightgrey;
+}
+
+.baseline 
+{
+    display: flex;
+    
+}
+
+.gameOver 
+{
+    font-size: 100px;
+}
